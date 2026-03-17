@@ -1,8 +1,9 @@
+// src/mastra/index.js
 import { Mastra } from '@mastra/core'
-import { schoolAgent } from './agents/school-agent.js'
+import { equipmentAgent } from './agents/equipment-agent.js'
 
-const mastra = new Mastra({
-  agents: { schoolAgent },
+export const mastra = new Mastra({
+  agents: {
+    'equipment-agent': equipmentAgent,
+  },
 })
-
-export { mastra }
