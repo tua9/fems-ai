@@ -1,0 +1,46 @@
+{
+    "tables": [
+        {
+            "id": "1",
+            "name": "Bàn gỗ",
+            "type": "wood",
+            "available": true
+        },
+        {
+            "id": "2",
+            "name": "Bàn nhựa",
+            "type": "plastic",
+            "available": true
+        }
+    ],
+    "chairs": [
+        {
+            "id": "1",
+            "name": "Ghế xoay",
+            "type": "office",
+            "available": true
+        },
+        {
+            "id": "2",
+            "name": "Ghế gỗ",
+            "type": "wood",
+            "available": true
+        }
+    ],
+    "orders": [
+        {
+            "id": "7c77",
+            "tableId": "1",
+            "tableName": "Bàn gỗ",
+            "tableType": "wood",
+            "quantity": 1,
+            "customerName": "Nguyễn Văn A",
+            "phone": "0123456789",
+            "address": "Hà Nội",
+            "payment": "COD",
+            "status": "pending",
+            "createdAt": "2026-03-18T02:26:39.837Z"
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+}
